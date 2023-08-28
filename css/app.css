@@ -10,7 +10,12 @@ header {
     padding: 20px;
     background-image: url("/img/pattern.png");
     border-bottom: 1px solid black;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 300px;
+    height: 100px;
 }
 
 h1 {
@@ -23,12 +28,16 @@ h1 {
    margin-bottom: 15px;
 }
 
-.grey {
+.grey, h4 {
     color: #a4a4a4;
 }
 
+#blue {
+    color: #6bbadb ;
+}
+
 .photos {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .photos_notes {
@@ -36,9 +45,50 @@ h1 {
 }
 
 .text {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-#important {
+.important {
     background-color: yellow;
+}
+
+.list {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    
+    margin-bottom: 20px;
+    border: none;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+
+.rows {
+    background-color: #b1e5f2;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.news_1, .news_2 {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+}
+.news_1{
+    background-image: url('/img/monitor.jpg');
+    
+}
+.news_2 {
+    background-image: url('/img/graph.jpg');
 }
