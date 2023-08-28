@@ -13,3 +13,32 @@ header {
     margin-bottom: 15px;
 }
 
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+}
+
+.main_title {
+   margin-bottom: 15px;
+}
+
+.grey {
+    color: #a4a4a4;
+}
+
+.photos {
+    margin-bottom: 15px;
+}
+
+.photos_notes {
+    font-size: 14px;
+}
+
+.text {
+    margin-bottom: 15px;
+}
+
+#important {
+    background-color: yellow;
+}
